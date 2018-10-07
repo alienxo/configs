@@ -8,6 +8,8 @@
 # How to change fonts in CS:GO after the Panorama Update
 https://github.com/spddl/CSGOFontConfigurator/releases/download/0.1.1/CSGOFontConfigurator.exe (as of now i don't know how to use custom fonts but im sure if you wait a bit someone will probably figure it out)
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
 # CSS Config
 
 # How to install 
