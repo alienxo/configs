@@ -1,4 +1,4 @@
-#csgo cfg
+# csgo cfg
 
 # How to install
 1. Download the CFG, name it autoexec.cfg
