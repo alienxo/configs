@@ -1,3 +1,5 @@
+#csgo cfg
+
 # How to install
 1. Download the CFG, name it autoexec.cfg
 2. Place it in your CFG folder Steamapps\common\Counter-Strike Global Offensive\csgo\cfg
