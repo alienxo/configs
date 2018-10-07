@@ -1,0 +1,59 @@
+r_dynamic "1" // dynamic lighting
+r_lod "-1" // model quality
+r_rootlod "0" // model quality
+r_decal_cullsize "5" // spray render distance
+r_renderoverlayfragment "1" // map detail
+fps_max "999"
+cl_minmodels "1"
+cl_ragdoll_physics_enable "0" // ragdolls
+cl_forcepreload "1"
+cl_ejectbrass "0" // bullet shells
+mat_savechanges // write video settings to registry
+// Audio
+volume "0.55"
+voice_enable "1"
+voice_scale "1" // receive volume
+dsp_slow_cpu "1"
+snd_surround_speakers "0" // audio output
+snd_musicvolume "0"
+snd_legacy_surround "0" // emulated surround sound
+snd_mixahead "0.05" // sound delay
+
+// HUD
+hud_showtargetid "1"
+hud_fastswitch "1"
+cl_righthand "1"
+cl_autowepswitch "1"
+cl_showpos "0"
+cl_showfps "0"
+net_graph "1"
+net_graphproportionalfont "0" // small netgraph font
+
+// Crosshair
+cl_crosshairsize "3"
+cl_crosshairthickness "1"
+cl_crosshairspreadscale "0.3"
+cl_crosshairdot "0"
+cl_crosshairusealpha "1"
+cl_crosshairalpha "999"
+cl_dynamiccrosshair "1"
+cl_legacy_crosshair_recoil "0"
+cl_legacy_crosshair_scale "0"
+cl_crosshaircolor "5"
+cl_crosshaircolor_b "255"
+cl_crosshaircolor_r "240"
+cl_crosshaircolor_g "136"
+
+// Misc
+con_enable "1"
+cl_downloadfilter "mapsonly"
+cl_autohelp "0"
+cl_showhelp "0"
+cl_disablefreezecam "1"
+cl_disablehtmlmotd "1"
+cl_autowepswitch "0" // auto weapon switch on pickup
+cl_hudhint_sound "0"
+cl_clanid ""
+setinfo zb_wantautocashcalling 1
+
+echo loaded
