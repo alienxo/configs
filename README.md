@@ -6,8 +6,15 @@
 3. Add these launch options to csgo: -high -novid -console -exec autoexec.cfg +autoexec.cfg -nojoy -noforcemparms -noforcemaccel
 
 # How to change fonts in CS:GO after the Panorama Update
-https://github.com/spddl/CSGOFontConfigurator/releases/download/0.1.1/CSGOFontConfigurator.exe (as of now i don't know how to use custom fonts that i downloaded for example from dafont but im sure if you wait a bit someone will probably figure it out)
+https://www.dropbox.com/s/yfz7ddmc2ggm6k4/panorama_custom_font.zip?dl=0
 
+1. If you wan't a custom font just download one from https://www.dafont.com and install it. (you do not need to place your custom font in the fonts folder) 
+
+2. After that replace RuneScape UF in all the text files with the font name (NOT the file name, but the font name. You can find the font name when you open the font on the top left)
+
+3. On row 40 in the fonts.conf file place the file name of the font NOT the font name like it said in step 2 
+
+4. On row 89 replace pixelsize with 1.0 instead of 1.2, if you dont your font will look weird
 -----------------------------------------------------------------------------------------------------------------------------------
 
 # CSS Config
