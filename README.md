@@ -6,7 +6,7 @@
 3. Add these launch options to csgo: -high -novid -console -exec autoexec.cfg +autoexec.cfg -nojoy -noforcemparms -noforcemaccel
 
 # How to change fonts in CS:GO after the Panorama Update
-https://www.dropbox.com/s/yfz7ddmc2ggm6k4/panorama_custom_font.zip?dl=0
+https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
 
 1. If you wan't a custom font just download one from https://www.dafont.com and install it. (you do not need to place your custom font in the fonts folder) 
 
