@@ -1,6 +1,6 @@
 # CS:GO Config
 
-#Launch Options: 
+# Launch Options: 
 -console -novid -tickrate 128 -high -threads 8 -language japanese -noforcemaccel -noforcemparms -noforcemspd +exec autoexec +cl_forcepreload 1 +nod3d9ex1 -nojoy -high -novid -window -noborder -w 1920 -h 1080
 
 # How to install 
