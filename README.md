@@ -55,11 +55,11 @@ This is Comanglia Stability config + Blocky Textures + I removed network setting
 The reason i removed network settings is be cause if people have bad PCs they usually have bad network so i didnt wanna mess with anything.
 I hope you understand my point.
 
-To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > cfg > save it here as autoexec.cfg, !!!*** PUT "ALL FILES" ***!!! otherwise it won't work.
+To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > cfg > save it here as autoexec.cfg, ###### PUT ALL FILES otherwise it won't work.
 
 5. Copy: http://pastebin.com/tWMVynL2
 
-To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > custom > make a folder called: my_custom_stuff > in it make a folder: scripts > save it here as surfaceproperties.txt (**DONT** put all files)
+To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > custom > make a folder called: my_custom_stuff > in it make a folder: scripts > save it here as surfaceproperties.txt (DONT put all files)
 
 6. Download: http://www.mediafire.com/download/mfmstj878u4383r/hrblsnohat.28.08.2015.vpk
 
