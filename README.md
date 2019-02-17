@@ -26,7 +26,6 @@ https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
 1. Download the CFG, name it autoexec.cfg
 2. Place it in your CFG folder steamapps\common\Counter-Strike Source\cstrike\cfg
 3. Add this launch option to css: -exec autoexec.cfg +autoexec.cfg
-
 -----------------------------------------------------------------------------------------------------------------------------------
 
 # TF2 Config
@@ -35,8 +34,9 @@ https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
 1. Extract the configtf2.rar in Steam\steamapps\common\Team Fortress 2\tf
 2. When it prompts to replace files click replace all
 ###### Warning! This config has all the video settings maxed as much as possible so if you don't have a good PC you will expirience lag 
+-----------------------------------------------------------------------------------------------------------------------------------
 
-# Getting the highest FPS for people with bad PCs
+# Getting the highest FPS for people with bad PCs (Mostly for TF2)
 
 1. If you use Windows, set it to High Performance mode.
 
