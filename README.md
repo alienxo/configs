@@ -55,7 +55,7 @@ This is Comanglia Stability config + Blocky Textures + I removed network setting
 The reason i removed network settings is be cause if people have bad PCs they usually have bad network so i didnt wanna mess with anything.
 I hope you understand my point.
 
-To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > cfg > save it here as autoexec.cfg, ###### PUT ALL FILES otherwise it won't work.
+To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > cfg > save it here as autoexec.cfg, PUT ALL FILES otherwise it won't work.
 
 5. Copy: http://pastebin.com/tWMVynL2
 
@@ -67,7 +67,7 @@ To install: Go to where you installed Steam > steamapps > common > Team Fortress
 
 This removes hats btw. Yes, it boosts fps but if you truly love hats like me you don't have to do this.
 
-7. Download: http://tf2.gamebanana.com/sprites/download/5309 !!!CLICK ***LOCAL COPY***!!!
+7. Download: http://tf2.gamebanana.com/sprites/download/5309 LOCAL COPY
 
 To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > custom > and put the file here.
 
