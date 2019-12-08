@@ -66,7 +66,7 @@ This removes hats btw. Yes, it boosts fps but if you truly love hats like me you
 
 To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > custom > and put the file here.
 
-8. Download: https://mega.nz/#!EgJRTBJZ!2obYj4zGLS26sJKCiGJgz2KpAPLlbVXBEyty3FKLUsw !!!CLICK DOWNLOAD THROUGHT BROWSER BUTTON!!!
+8. Download: https://mega.nz/#!EgJRTBJZ!2obYj4zGLS26sJKCiGJgz2KpAPLlbVXBEyty3FKLUsw
 
 To install: go to your my_custom_stuff folder > scripts > place the .txt files in here.
 
