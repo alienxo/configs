@@ -11,13 +11,14 @@
 # How to change fonts in CS:GO after the Panorama Update
 https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
 
-1. If you wan't a custom font just download one from https://www.dafont.com and install it. (you do not need to place your custom font file in the fonts folder) 
+1. If you want a custom font just download one from https://www.dafont.com and install it. (you need to place your custom font file in the fonts folder) 
 
 2. After that replace RuneScape UF in all the text files with the font name (NOT the file name, but the font name. You can find the font name when you open the font file on the top left)
 
 3. On row 40 in the fonts.conf file place the file name of the font NOT the font name like it said in step 2 
 
 4. On row 89 replace pixelsize with 1.0 instead of 1.2, if you dont your font will look weird and small/blurry
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
 # CSS Config
@@ -26,6 +27,7 @@ https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
 1. Download the CFG, name it autoexec.cfg
 2. Place it in your CFG folder steamapps\common\Counter-Strike Source\cstrike\cfg
 3. Add this launch option to css: -exec autoexec.cfg +autoexec.cfg
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
 # TF2 Config
@@ -33,7 +35,8 @@ https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
 # How to install
 1. Extract the configtf2.rar in Steam\steamapps\common\Team Fortress 2\tf
 2. When it prompts to replace files click replace all
-###### Warning! This config has all the video settings maxed as much as possible so if you don't have a good PC you will expirience lag 
+###### Warning! This config has all the video settings maxed as much as possible so if you don't have a good PC you will experience lag 
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
 # Getting the highest FPS for people with bad PCs (Mostly for TF2)
@@ -51,9 +54,7 @@ Right Click on desktop > Personalize > Choose the "old-looking" theme.
 
 4. Copy this: http://pastebin.com/4WeNveLb
 
-This is Comanglia Stability config + Blocky Textures + I removed network settings.
-The reason i removed network settings is be cause if people have bad PCs they usually have bad network so i didnt wanna mess with anything.
-I hope you understand my point.
+This is Comanglia Stability config + Blocky Textures with removed network settings.
 
 To install: Go to where you installed Steam > steamapps > common > Team Fortress 2 > tf > cfg > save it here as autoexec.cfg, PUT ALL FILES otherwise it won't work.
 
