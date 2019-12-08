@@ -1,10 +1,7 @@
 # How to install the CS:GO cfg
 1. Download the CFG, name it autoexec.cfg
 2. Place it in your CFG folder Steamapps\common\Counter-Strike Global Offensive\csgo\cfg
-3. Add these launch options to csgo: -high -novid -console -exec autoexec.cfg +autoexec.cfg -nojoy -noforcemparms -noforcemaccel
-
-# Launch Options: 
--console -novid -tickrate 128 -high -threads 8 -language japanese -noforcemaccel -noforcemparms -noforcemspd +exec autoexec +cl_forcepreload 1 +nod3d9ex1 -nojoy -high -novid -window -noborder -w 1920 -h 1080
+3. Add these launch options to csgo: -console -novid -tickrate 128 -high -threads 8 -language japanese -noforcemaccel -noforcemparms -noforcemspd +exec autoexec +cl_forcepreload 1 +nod3d9ex1 -nojoy -high -novid -window -noborder -w 1920 -h 1080
 
 # How to change fonts in CS:GO after the Panorama Update
 https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
