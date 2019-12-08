@@ -26,16 +26,14 @@ https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-# TF2 Config
-
-## How to install
+# How to install the TF2 cfg
 1. Extract the configtf2.rar in Steam\steamapps\common\Team Fortress 2\tf
 2. When it prompts to replace files click replace all
 ###### Warning! This config has all the video settings maxed as much as possible so if you don't have a good PC you will experience lag 
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-# Getting the highest FPS for people with bad PCs (Mostly for TF2)
+# Getting the highest FPS for people with bad PCs (TF2 Based)
 
 1. If you use Windows, set it to High Performance mode.
 
