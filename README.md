@@ -33,7 +33,7 @@ https://www.dropbox.com/sh/5aokqe2bkzl9yy3/AADEGk1wakXJ4KL6F0kwuaoba?dl=0
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-# Getting the highest FPS for people with bad PCs (TF2 Based)
+# Getting higher fps on low-end PCs (mainly for source games)
 
 1. If you use Windows, set it to High Performance mode.
 
