@@ -1,3 +1,4 @@
+sv_cheats 1
 cl_crosshair_drawoutline "1"
 cl_crosshair_dynamic_maxdist_splitratio "0.35"
 cl_crosshair_dynamic_splitalpha_innermod "1"
@@ -24,6 +25,7 @@ cl_fixedcrosshairgap "2.000000"
 cl_viewmodel_shift_left_amt "0.500000"
 cl_viewmodel_shift_right_amt "0.250000"
 viewmodel_fov "68"
+fov_cs_debug 100
 safezonex 1
 safezoney 1
 viewmodel_offset_x "3"
