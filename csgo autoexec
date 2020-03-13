@@ -1,4 +1,4 @@
-bind "ESCAPE" "cancelselect"
+bind "ESCAPE" "cancelselect" 
 bind "`" "toggleconsole"    
 
 alias +e "+use; play buttons/button14"; alias -e "-use"
