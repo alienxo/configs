@@ -139,19 +139,20 @@ net_graph "0"
 net_graphproportionalfont "0" // small netgraph font
 
 // Crosshair
-cl_crosshairsize "2"
-cl_crosshairthickness "0.5"
-cl_crosshairspreadscale "0.3"
-cl_crosshairdot "0"
-cl_crosshairusealpha "1"
-cl_crosshairalpha "999"
-cl_dynamiccrosshair "0"
+cl_crosshairalpha 255
+cl_crosshaircolor 5 
+cl_crosshaircolor_b 255 
+cl_crosshaircolor_g 140
+cl_crosshaircolor_r 255
+cl_crosshairdot 0 
+cl_crosshairscale 0 
+cl_crosshairsize 2.5
+cl_crosshairspreadscale 0.3 
+cl_crosshairthickness 0.85
+cl_crosshairusealpha 0
 cl_legacy_crosshair_recoil "0"
 cl_legacy_crosshair_scale "0"
-cl_crosshaircolor "5"
-cl_crosshaircolor_r "255"
-cl_crosshaircolor_g "255"
-cl_crosshaircolor_b "255"
+
 
 // Misc
 con_enable "1"
