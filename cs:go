@@ -1,5 +1,13 @@
+// Launch Options 
+-noborder -high -novid -console -freq 75 -refresh 75 -nojoy -noforcemparms -noforcemaccel +exec autoexec.cfg // open steam -> open library -> right click cs:go -> properties -> set launch option
+
+• set freq to your monitor's refresh rate which you can find in settings -> system -> display -> advanced display settings -> display adapter properties
+• set threads to number of threads your cpu hsa which you can find in task manager -> performance -> cores x2 = threads (ex. 4 cores = 8 threads)
+• novid removes valve intro
+• noborder removes borders from windowed mode
+
 // Changeable Settings  
-    sensitivity                             "1.3"                                // your sensitivity
+    sensitivity                             "1.732"                              // your sensitivity
     zoom_sensitivity_ratio_mouse            "0.95"                               // scoped sensitivity
     fps_max_menu                            "75"                                 // change to your refresh rate
     fps_max                                 "100"                                // your max fps
