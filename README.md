@@ -1,6 +1,6 @@
 # cs:go, cs:s & tf2 config installation 
-1. Download the CFG and name it autoexec.cfg
-2. Move the CFG to the respective game's CFG folder
+1. Download the CFGs and name them autoexec.cfg
+2. Move the CFGs to their respective game's CFG folder
 
 ``\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg``
 
