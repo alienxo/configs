@@ -1,3 +1,112 @@
+// Launch Options 
+-novid -noborder -high -threads 8 -freq 144 +exec autoexec.cfg  // open steam -> open library -> right click css -> properties -> set launch options
+
+• set freq to your monitor's refresh rate which you can find in settings -> system -> display -> advanced display settings -> display adapter properties
+• set threads to number of threads your cpu hsa which you can find in task manager -> performance -> cores x2 = threads (ex. 4 cores = 8 threads)
+• novid removes valve intro
+• noborder removes borders from windowed mode
+
+
+// Binds
+bind "ESCAPE" "cancelselect"
+bind "`" "toggleconsole"
+
+bind "TAB" "+showscores"
+bind "SPACE" "+jump"
+bind "," "buyammo1"
+bind "." "buyammo2"
+bind "0" "slot10"
+bind "1" "slot1"
+bind "2" "slot2"
+bind "3" "slot3"
+bind "4" "slot4"
+bind "5" "slot5"
+bind "6" "slot6"
+bind "7" "slot7"
+bind "8" "slot8"
+bind "9" "slot9"
+bind "a" "+mleft"
+bind "b" "buymenu"
+bind "c" "radio3"
+bind "d" "+mright"
+bind "e" "+use"
+bind "f" "impulse 100"
+bind "g" "drop"
+bind "h" "commandmenu"
+bind "i" "showbriefing"
+bind "j" "cheer"
+bind "k" "+voicerecord"
+bind "m" "chooseteam"
+bind "n" "nightvision"
+bind "o" "buyequip"
+bind "q" "lastinv"
+bind "r" "+reload"
+bind "s" "+mback"
+bind "t" "impulse 201"
+bind "u" "messagemode2"
+bind "w" "+mfwd"
+bind "x" "radio2"
+bind "y" "messagemode"
+bind "z" "afk"
+bind "CTRL" "+speed"
+bind "SHIFT" "+duck"
+bind "F1" "autobuy"
+bind "F2" "rebuy"
+bind "F4" "bug"
+bind "F5" "jpeg"
+bind "F6" "save quick"
+bind "F7" "load quick"
+bind "F10" "quit prompt"
+bind "MWHEELDOWN" "+jump"
+bind "MWHEELUP" "+jump"
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "+attack2"
+bind "PAUSE" "pause"
+bind "ALT" "+ng"
+
+// Rates
+rate "128000"
+cl_cmdrate "66"
+cl_updaterate "66"
+cl_interp "0.015"
+cl_interp_ratio "1"
+cl_lagcompensation "1"
+cl_pred_optimize "2"
+cl_predict "1"
+cl_predictweapons "1"
+cl_smooth "0"
+cl_smoothtime "0"
+cl_wpn_sway_interp "0"
+
+// Mouse
+sensitivity "2.14"
+zoom_sensitivity_ratio "1.0"
+m_rawinput "1"
+m_pitch "0.022"
+m_filter "0"
+m_customaccel "0"
+m_mouseaccel1 "0"
+m_mouseaccel2 "0"
+
+// Video
+mat_setvideomode 1280 960 0
+mat_dxlevel "95"
+mat_monitorgamma "2.1"
+mat_queue_mode "2" // multicore rendering
+mat_vsync "0"
+mat_antialias "1"
+mat_forceaniso "1"
+mat_hdr_level "0"
+mat_disable_bloom "1"
+mat_bloomscale ".20"
+mat_colorcorrection "0" // depth blur
+mat_texture_limit "-1"
+mat_compressedtextures "1"
+mat_picmip "0" // texture quality
+r_3dsky "1"
+r_shadows "1"
+r_shadowmaxrendered "32"
+r_shadowrendertotexture "1" // render shadows from players to objects
 r_dynamic "1" // dynamic lighting
 r_lod "-1" // model quality
 r_rootlod "0" // model quality
@@ -9,6 +118,7 @@ cl_ragdoll_physics_enable "0" // ragdolls
 cl_forcepreload "1"
 cl_ejectbrass "0" // bullet shells
 mat_savechanges // write video settings to registry
+
 // Audio
 volume "0.55"
 voice_enable "1"
@@ -26,23 +136,23 @@ cl_righthand "1"
 cl_autowepswitch "1"
 cl_showpos "0"
 cl_showfps "0"
-net_graph "1"
+net_graph "0"
 net_graphproportionalfont "0" // small netgraph font
 
 // Crosshair
-cl_crosshairsize "3"
-cl_crosshairthickness "1"
+cl_crosshairsize "2"
+cl_crosshairthickness "0.5"
 cl_crosshairspreadscale "0.3"
 cl_crosshairdot "0"
 cl_crosshairusealpha "1"
 cl_crosshairalpha "999"
-cl_dynamiccrosshair "1"
+cl_dynamiccrosshair "0"
 cl_legacy_crosshair_recoil "0"
 cl_legacy_crosshair_scale "0"
 cl_crosshaircolor "5"
+cl_crosshaircolor_r "255"
+cl_crosshaircolor_g "255"
 cl_crosshaircolor_b "255"
-cl_crosshaircolor_r "240"
-cl_crosshaircolor_g "136"
 
 // Misc
 con_enable "1"
@@ -53,7 +163,68 @@ cl_disablefreezecam "1"
 cl_disablehtmlmotd "1"
 cl_autowepswitch "0" // auto weapon switch on pickup
 cl_hudhint_sound "0"
-cl_clanid ""
+cl_clanid "" // insert steam group tag id between the "" acts as clan tag next to your name ex. clantag alien
 setinfo zb_wantautocashcalling 1
 
-echo loaded
+// Aliases
+alias "+ng" "+showscores; net_graph 1"
+alias "-ng" "-showscores; net_graph 0"
+alias bhopon "bind MWHEELDOWN +jump;bind MWHEELUP +jump;bind mouse3 bhopoff"
+alias bhopoff "bind MWHEELDOWN invnext;bind MWHEELUP invprev;bind mouse3 bhopon"
+alias "surf" "bind mouse4 +left;bind mouse5 +right;fps_max 300"
+
+alias "x2"                              "cl_crosshairstyle 2"
+alias "x3"                              "cl_crosshairstyle 3"
+alias "x4"                              "cl_crosshairstyle 4"
+alias "x5"                              "cl_crosshairstyle 5"
+	
+alias "cBlack"                          "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0"
+alias "cBlue"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
+alias "cCyan"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255; cl_crosshaircolor_b 255"
+alias "cDarkBlue"                       "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 100; cl_crosshaircolor_b 255"
+alias "cGreen"                          "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255; cl_crosshaircolor_b 0"
+alias "cGrey"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 128; cl_crosshaircolor_g 128; cl_crosshaircolor_b 128"
+alias "cLightPink"                      "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 160; cl_crosshaircolor_b 255"
+alias "cLime"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 178; cl_crosshaircolor_g 255; cl_crosshaircolor_b 0"
+alias "cMint"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255; cl_crosshaircolor_b 128"
+alias "cOrange"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 128; cl_crosshaircolor_b 0"
+alias "cPink"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
+alias "cPurple"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 128; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
+alias "cRed"                            "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0"
+alias "cSkyblue"                        "cl_crosshaircolor 5; cl_crosshaircolor_r 60; cl_crosshaircolor_g 158; cl_crosshaircolor_b 255"
+alias "cWhite"                          "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255; cl_crosshaircolor_b 255"
+alias "cYellow"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255; cl_crosshaircolor_b 0"
+	
+alias "+m1"                             "+attack; cRed"   // color when mouse1 pressed
+alias "-m1"                             "-attack; cCyan"  // color when not pressed
+
+// AFK
+alias "afk"                             "afk_on"
+alias "afk_on"                          "+forward; +moveleft; +left; alias afk afk_off"
+alias "afk_off"                         "-forward; -moveleft; -left; alias afk afk_on"
+
+// Null-cancelling movement script (prevents you from pressing two opposing directions, which causes you to stop moving)
+bind "w"                                "+mfwd"
+bind "s"                                "+mback"
+bind "a"                                "+mleft"
+bind "d"                                "+mright"
+
+alias "+mfwd"                           "-back;+forward;alias checkfwd +forward; cPurple"
+alias "+mback"                          "-forward;+back;alias checkback +back; cMint"
+alias "+mleft"                          "-moveright;+moveleft;alias checkleft +moveleft; cLightPink"
+alias "+mright"                         "-moveleft;+moveright;alias checkright +moveright; cSkyBlue"
+alias "-mfwd"                           "-forward;checkback;alias checkfwd none"
+alias "-mback"                          "-back;checkfwd;alias checkback none"
+alias "-mleft"                          "-moveleft;checkright;alias checkleft none"
+alias "-mright"                         "-moveright;checkleft;alias checkright none"
+alias "checkback"                       "none"
+alias "checkleft"                       "none"
+alias "checkright"                      "none"
+alias "none"                            ""
+
+host_writeconfig // write settings to config.cfg
+echo ""
+echo ""
+echo "config loaded"
+echo ""
+echo ""
