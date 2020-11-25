@@ -1,10 +1,18 @@
 // Launch Options 
--novid -noborder -high -threads 8 -freq 144 +exec autoexec.cfg  // open steam -> open library -> right click css -> properties -> set launch options
+-novid -noborder -high -threads 8 -freq 144 +exec autoexec.cfg  // open steam -> open library -> right click cs:s -> properties -> set launch options
 
 • set freq to your monitor's refresh rate which you can find in settings -> system -> display -> advanced display settings -> display adapter properties
 • set threads to number of threads your cpu hsa which you can find in task manager -> performance -> cores x2 = threads (ex. 4 cores = 8 threads)
 • novid removes valve intro
 • noborder removes borders from windowed mode
+
+// Changeable settings
+sensitivity                             "1.732"                              // your sensitivity
+zoom_sensitivity_ratio_mouse            "0.95"                               // scoped sensitivity
+fps_max_menu                            "75"                                 // change to your refresh rate
+fps_max                                 "100"                                // your max fps
+voice_scale                             "0.5"                                // receive volum
+voice_mixer_volume                      "1.0"                                // mic volume (set to avoid it from changing randomly)  
 
 // Binds
 bind "ESCAPE" "cancelselect"
