@@ -230,10 +230,10 @@
     alias "-m1"                             "-attack; cCyan"  // color when not pressed
 
 // Viewmodels
-    alias "fov" "viewmodel_fov "68"; viewmodel_offset_x "1"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
-	alias "quake" "viewmodel_fov "54"; viewmodel_offset_x "-2"; viewmodel_offset_y "2.5"; viewmodel_offset_z "-2"
-	alias "corner" "viewmodel_fov "68"; viewmodel_offset_x "2.5"; viewmodel_offset_y "2.5"; viewmodel_offset_z "-2"
-	alias "vis" "viewmodel_fov "54"; viewmodel_offset_x "2.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
+    alias "fov" "viewmodel_fov "68"; viewmodel_offset_x "1.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
+    alias "quake" "viewmodel_fov "54"; viewmodel_offset_x "-2"; viewmodel_offset_y "2.5"; viewmodel_offset_z "-2"
+    alias "corner" "viewmodel_fov "68"; viewmodel_offset_x "2.5"; viewmodel_offset_y "2.5"; viewmodel_offset_z "-2"
+    alias "vis" "viewmodel_fov "54"; viewmodel_offset_x "2.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
 
 // Output Current Commands
     alias "damage"                          "con_filter_text Damage; con_filter_text_out Player:; con_filter_enable 2; developer 1"
