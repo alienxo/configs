@@ -1,6 +1,6 @@
 # cs:go, cs:s & tf2 config installation 
-1. Download the CFGs and name them autoexec.cfg
-2. Move the CFGs to their respective game's CFG folder
+1. Download the CFG and name it autoexec.cfg
+2. Move the CFG to the respective game's CFG folder
 
 ``\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg``
 
@@ -10,6 +10,21 @@
 
 3. (for tf2) Extract all the folders and replace files if prompted
 4. Open the CFG and change whatever you'd like
+
+# launch options (cs:go's and cs:s' are included in the .cfgs)
+
+tf2 ``-dxlevel 81 -window -noborder -w 1920 -h 1080 -console -novid +exec autoexec.cfg``
+
+cs:s ``-novid -noborder -high -threads 8 -freq 75 +exec autoexec.cfg``
+
+cs:go ``-noborder -high -novid -console -freq 75 -refresh 75 -nojoy -noforcemparms -noforcemaccel +exec autoexec.cfg``
+
+``open steam -> open library -> right click cs:go/cs:s/tf2 -> properties -> set launch options``
+
+• set freq/refresh to your monitor's hz which you can find in ``settings -> system -> display -> advanced display settings -> display adapter properties``
+• set threads to number of threads your cpu hsa which you can find in ``task manager -> performance -> cores x2 = threads (ex. 4 cores = 8 threads)``
+• novid removes valve intro
+• noborder removes borders from windowed mode
 
 # black ops 3 low graphics config installation
 1. Download the CFG and name it config.ini
