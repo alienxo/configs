@@ -180,11 +180,6 @@ alias "-ng" "-showscores; net_graph 0"
 alias bhopon "bind MWHEELDOWN +jump;bind MWHEELUP +jump;bind mouse3 bhopoff"
 alias bhopoff "bind MWHEELDOWN invnext;bind MWHEELUP invprev;bind mouse3 bhopon"
 alias "surf" "bind mouse4 +left;bind mouse5 +right;fps_max 300"
-
-alias "x2"                              "cl_crosshairstyle 2"
-alias "x3"                              "cl_crosshairstyle 3"
-alias "x4"                              "cl_crosshairstyle 4"
-alias "x5"                              "cl_crosshairstyle 5"
 	
 alias "cBlack"                          "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0"
 alias "cBlue"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
