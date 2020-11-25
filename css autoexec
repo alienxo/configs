@@ -6,7 +6,6 @@
 • novid removes valve intro
 • noborder removes borders from windowed mode
 
-
 // Binds
 bind "ESCAPE" "cancelselect"
 bind "`" "toggleconsole"
