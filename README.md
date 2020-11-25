@@ -11,7 +11,7 @@
 3. (for tf2) Extract all the folders and replace files if prompted
 4. Open the CFG and change whatever you'd like
 
-# cod:bo3 low graphics config installation
+# black ops 3 low graphics config installation
 1. Download the CFG and name it config.ini
 2. Replace the config.ini in the players folder
 > \Steam\steamapps\common\Call of Duty Black Ops III\players
