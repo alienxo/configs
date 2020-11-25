@@ -11,7 +11,7 @@
 3. (for tf2) Extract all the folders and replace files if prompted
 4. Open the CFG and change whatever you'd like
 
-# launch options (cs:go's and cs:s' are included in their .cfgs)
+# launch options (cs:go and cs:s are included in their .cfgs)
 
 tf2 ``-dxlevel 81 -window -noborder -w 1920 -h 1080 -console -novid +exec autoexec.cfg``
 
