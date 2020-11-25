@@ -1,6 +1,6 @@
 # cs:go, cs:s, tf2 & cod 4 config installation 
-1. Download the CFG and name it autoexec.cfg
-2. Move the CFG to the respective game's CFG folder
+1. Download the CFGs and name it autoexec.cfg
+2. Move the CFGs to the respective game's CFG folder
 
 ``\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg``
 
@@ -11,7 +11,7 @@
 ``\Steam\steamapps\common\Call of Duty 4\players\profiles\yourprofile``
 
 3. (for tf2) Extract all the folders and replace files if prompted
-4. Open the CFG and change whatever you'd like
+4. Open the CFGs and change whatever you'd like
 
 # launch options (cs:go and cs:s are included in their .cfgs)
 
