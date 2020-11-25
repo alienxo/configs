@@ -8,6 +8,8 @@
 
 ``\Steam\steamapps\common\Team Fortress 2\tf\``
 
+``\Steam\steamapps\common\Call of Duty 4\players\profiles\yourprofile``
+
 3. (for tf2) Extract all the folders and replace files if prompted
 4. Open the CFG and change whatever you'd like
 
