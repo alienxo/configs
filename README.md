@@ -26,7 +26,7 @@ cs:go ``-noborder -high -novid -console -freq 75 -refresh 75 -nojoy -noforcempar
 
 quake 3 ``\Steam\steamapps\common\Quake3\baseq3``
 
-quake live ``\Steam\steamapps\common\Quake Live\76561198818437890\baseq3``
+quake live ``\Steam\steamapps\common\Quake Live\yourid\baseq3`` (your id=bunch of numbers)
 
 open steam -> open library -> right click cs:go/cs:s/tf2 -> properties -> set launch options
 
