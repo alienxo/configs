@@ -9,9 +9,12 @@
 ``\Steam\steamapps\common\Team Fortress 2\tf\``
 
 ``\Steam\steamapps\common\Call of Duty 4\players\profiles\yourprofile``
+&
+``\Steam\steamapps\common\Call of Duty 4\Mods\servermod`` (server mod = mod that the server you're playing on is running which is most likely pml2020)
 
 3. (for tf2) Extract all the folders and replace files if prompted
-4. Open the CFGs and change whatever you'd like
+4. (for cod4 & quake) Execute the config with the console by pressing ~ (button left of 1) and typing \exec config_mp (cod4) or \exec quake.cfg (quake)
+5. Open the CFGs and change whatever you'd like
 
 # launch options (cs:go and cs:s are included in their .cfgs)
 
