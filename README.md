@@ -12,6 +12,10 @@
 &
 ``\Steam\steamapps\common\Call of Duty 4\Mods\servermod`` (server mod = mod that the server you're playing on is running which is most likely pml2020)
 
+quake 3 ``\Steam\steamapps\common\Quake3\baseq3``
+
+quake live ``\Steam\steamapps\common\Quake Live\yourid\baseq3`` (your id=bunch of numbers)
+
 3. (for tf2) Extract all the folders and replace files if prompted
 4. (for cod4 & quake) Execute the config with the console by pressing ~ (button left of 1) and typing \exec autoexec
 5. Open the CFGs and change whatever you'd like
@@ -23,10 +27,6 @@ tf2 ``-dxlevel 81 -window -noborder -w 1920 -h 1080 -console -novid +exec autoex
 cs:s ``-novid -noborder -high -threads 8 -freq 75 +exec autoexec.cfg``
 
 cs:go ``-noborder -high -novid -console -freq 75 -refresh 75 -nojoy -noforcemparms -noforcemaccel +exec autoexec.cfg``
-
-quake 3 ``\Steam\steamapps\common\Quake3\baseq3``
-
-quake live ``\Steam\steamapps\common\Quake Live\yourid\baseq3`` (your id=bunch of numbers)
 
 open steam -> open library -> right click cs:go/cs:s/tf2 -> properties -> set launch options
 
