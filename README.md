@@ -24,6 +24,10 @@ cs:s ``-novid -noborder -high -threads 8 -freq 75 +exec autoexec.cfg``
 
 cs:go ``-noborder -high -novid -console -freq 75 -refresh 75 -nojoy -noforcemparms -noforcemaccel +exec autoexec.cfg``
 
+quake 3 ``\Steam\steamapps\common\Quake3\baseq3``
+
+quake live ``\Steam\steamapps\common\Quake Live\76561198818437890\baseq3``
+
 open steam -> open library -> right click cs:go/cs:s/tf2 -> properties -> set launch options
 
 • set freq/refresh to your monitor's hz which you can find in settings -> system -> display -> advanced display settings -> display adapter properties
