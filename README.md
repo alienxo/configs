@@ -45,3 +45,7 @@ open steam -> open library -> right click cs:go/cs:s/tf2 -> properties -> set la
 2. Replace the config.ini in the players folder
 ``\Steam\steamapps\common\Call of Duty Black Ops III\players``
 3. Enjoy high framerates :p
+
+
+# only sensitivies (s/o superduperseb)
+[google docs](https://docs.google.com/document/d/1bXtwCQAUmVkXpGmn-3aNfkaQEoMj4Jch-NmZaQnGnmA/edit?usp=sharing)
