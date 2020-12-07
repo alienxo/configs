@@ -16,6 +16,8 @@ quake 3 ``\Steam\steamapps\common\Quake3\baseq3``
 
 quake live ``\Steam\steamapps\common\Quake Live\yourid\baseq3`` (your id=bunch of numbers)
 
+mcosu ``\Steam\steamapps\common\McOsu\cfg``
+
 3. (for tf2) Extract all the folders and replace files if prompted
 4. (for cod4 & quake) Execute the config with the console by pressing ~ (button left of 1) and typing \exec autoexec
 5. Open the CFGs and change whatever you'd like
