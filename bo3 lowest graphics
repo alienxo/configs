@@ -22,16 +22,6 @@ VoiceChat = "1" // 0 or 1
 //Enable occlusion of sound behind solid surfaces
 SoundOcclusion = "1" // 0 or 1
 
-//Mouse smoothing amount
-MouseFilter = "0" // 0 to 10
-
-MouseAcceleration = "0" // 0 to 1
-
-MouseSensitivity = "1.03" // 0.1 to 30
-
-//Mouse vertical sensitivity
-MouseVerticalSensitivity = "0.022" // -1 to 1
- 
 //Enable vertical look with the mouse
 MouseVerticalLook = "1" // 0 or 1
 
