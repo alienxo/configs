@@ -1,4 +1,4 @@
-// Launch Options 
+// Launch Options  
 -novid -noborder -high -threads 8 -freq 144 +exec autoexec.cfg  // open steam -> open library -> right click cs:s -> properties -> set launch options
 
 • set freq to your monitor's refresh rate which you can find in settings -> system -> display -> advanced display settings -> display adapter properties
