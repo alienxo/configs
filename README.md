@@ -33,7 +33,7 @@ cs:go ``-noborder -high -novid -console -freq 75 -refresh 75 -nojoy -noforcempar
 open steam -> open library -> right click cs:go/cs:s/tf2 -> properties -> set launch options
 
 • set -w & -h to your desired resolution (w=width h=height)
-
+ 
 • set freq/refresh to your monitor's hz which you can find in settings -> system -> display -> advanced display settings -> display adapter properties
 
 • set threads to number of threads your cpu hsa which you can find in task manager -> performance -> cores x2 = threads (ex. 4 cores = 8 threads)
