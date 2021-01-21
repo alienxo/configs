@@ -12,8 +12,9 @@
     fps_max_menu                            "75"                                 // change to your refresh rate
     fps_max                                 "100"                                // your max fps
     voice_scale                             "0.5"                                // receive volume
-hud_scaling                                 "0.7"                                // hud scale
+    hud_scaling                             "0.7"                                // hud scale
     voice_mixer_volume                      "1.0"                                // mic volume (set to avoid it from changing randomly)          
+    cl_showpos                              "1"
 	
 //  Basic binds
     bind "ESCAPE" "cancelselect"
