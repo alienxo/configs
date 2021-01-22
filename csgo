@@ -15,6 +15,8 @@
     hud_scaling                             "0.7"                                // hud scale
     voice_mixer_volume                      "1.0"                                // mic volume (set to avoid it from changing randomly)          
     cl_showpos                              "1"
+    cl_showfps                              "1"
+    
 	
 //  Basic binds
     bind "ESCAPE" "cancelselect"
