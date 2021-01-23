@@ -12,7 +12,7 @@ unbindall
     sensitivity                             "1.732"                              // your sensitivity
     zoom_sensitivity_ratio_mouse            "0.95"                               // scoped sensitivity
     fps_max_menu                            "75"                                 // change to your refresh rate
-    fps_max                                 "999"                                // your max fps
+    fps_max                                 "200"                                // your max fps
     voice_scale                             "0.5"                                // receive volume
     hud_scaling                             "0.7"                                // hud scale
     voice_mixer_volume                      "1.0"                                // mic volume (set to avoid it from changing randomly)          
