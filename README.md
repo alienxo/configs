@@ -50,4 +50,4 @@ open steam -> open library -> right click cs:go/cs:s/tf2 -> properties -> set la
 
 
 # only sensitivies (s/o superduperseb)
-[google docs](https://docs.google.com/document/d/1bXtwCQAUmVkXpGmn-3aNfkaQEoMj4Jch-NmZaQnGnmA/edit?usp=sharing)
+[sens](https://docs.google.com/document/d/1bXtwCQAUmVkXpGmn-3aNfkaQEoMj4Jch-NmZaQnGnmA/edit?usp=sharing)
