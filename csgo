@@ -221,8 +221,8 @@ unbindall
     alias "+m1"                             "+attack; cRed"   // color when mouse1 pressed
     alias "-m1"                             "-attack; cCyan"  // color when not pressed
 	
-	alias "xhair1"                          "cl_crosshair_drawoutline 1; cl_crosshairgap -1.5; cl_crosshairsize 2; cl_crosshairstyle 5"
-	alias "xhair2"                          "cl_crosshair_drawoutline 0; cl_crosshairgap -5; cl_crosshairsize 3; cl_crosshairstyle 4"
+    alias "xhair1"                          "cl_crosshair_drawoutline 1; cl_crosshairgap -1.5; cl_crosshairsize 2; cl_crosshairstyle 5"
+    alias "xhair2"                          "cl_crosshair_drawoutline 0; cl_crosshairgap -5; cl_crosshairsize 3; cl_crosshairstyle 4"
 
 // Viewmodels
     alias "fov"                             "viewmodel_fov "68"; viewmodel_offset_x "1.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
