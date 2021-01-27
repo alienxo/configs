@@ -13,7 +13,7 @@ unbindall
     zoom_sensitivity_ratio_mouse            "0.95"                               // scoped sensitivity
     fps_max_menu                            "75"                                 // change to your refresh rate
     fps_max                                 "200"                                // change to a frame rate you consistently get
-    voice_scale                             "0.5"                                // receive volume
+    voice_scale                             "0.5"                                // receive voice chat volume
     hud_scaling                             "0.7"                                // hud scale
     voice_mixer_volume                      "1.0"                                // mic volume (set to avoid it from changing randomly)          
 	
@@ -81,8 +81,8 @@ unbindall
 	
 //  Crosshair binds                                                       // different crosshair configs 
 	
-	bind "kp_downarrow" "xhair1"     	                                  
-	bind "kp_end" "xhair2"
+    bind "kp_downarrow" "xhair1"     	                                  
+    bind "kp_end" "xhair2"
 	
 //  Viewmodel binds
     bind uparrow "fov"                          // fov warp
