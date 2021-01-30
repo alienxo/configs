@@ -22,7 +22,7 @@ mcosu ``\Steam\steamapps\common\McOsu\cfg``
 4. (for cod4 & quake) Execute the config with the console by pressing ~ (button left of 1) and typing \exec autoexec
 5. Open the CFGs and change whatever you'd like
 
-# launch options (cs:go and cs:s are included in their .cfgs)
+# launch options 
 
 tf2 ``-dxlevel 81 -window -noborder -w 1920 -h 1080 -console -novid +exec autoexec.cfg``
 
