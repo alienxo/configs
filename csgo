@@ -117,10 +117,10 @@ unbindall
     bind "kp_end" "xhair2"
 	
 //  Viewmodel binds
-    bind uparrow "fov"                          // fov warp
-    bind downarrow "corner"                     // cornered
-    bind rightarrow "quake"                     // quake style 
-    bind leftarrow "vis"                        // high visibility
+    bind "uparrow" "fov"                          // fov warp
+    bind "downarrow" "corner"                     // cornered
+    bind "rightarrow" "quake"                     // quake style 
+    bind "leftarrow" "vis"                        // high visibility
 
 // Rates 
     rate                                    "786432"
