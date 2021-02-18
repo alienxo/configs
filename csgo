@@ -74,7 +74,7 @@ unbindall
     bind "kp_enter" "disconnect"     	                                  // rage quit
 	
 //  Crosshair binds                                                       // different crosshair configs 
-	bind "kp_downarrow" "xhair1"     	                                  
+    bind "kp_downarrow" "xhair1"     	                                  
     bind "kp_end" "xhair2"
 	
 //  Viewmodel binds
