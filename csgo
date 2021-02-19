@@ -84,9 +84,7 @@ unbindall
     bind "u" "messagemode2"
     bind "v" "toggle cl_righthand 1 0; r_cleardecals"                          // hold gun in left or right hand
     bind "w" "+mfwd"
-    bind "x" "afk_off"                          // start running forward and spinning
     bind "y" "messagemode"
-    bind "z" "afk_on"                          // stop running forward and spinning
     bind "CTRL" "+speed"
     bind "SHIFT" "+duck"
     bind "F3" "autobuy"
