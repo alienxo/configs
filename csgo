@@ -7,48 +7,8 @@ unbindall
     fps_max_menu                            "75"                                 // change to your refresh rate
     fps_max                                 "205"                                // change to a frame rate you consistently get
     voice_scale                             "0.5"                                // receive volume
-    hud_scaling                             "0.7"                                // hud scale
+    hud_scaling                             "0.85"                               // hud scale
     voice_mixer_volume                      "1.0"                                // mic volume (set to avoid it from changing randomly)          
-    cl_crosshairdot                         "0"
-
-// Viewmodel
-    cl_viewmodel_shift_left_amt "0.5"
-    cl_viewmodel_shift_right_amt "0.5"
-    viewmodel_fov "54"
-    viewmodel_offset_x "2.5"
-    viewmodel_offset_y "-2"
-    viewmodel_offset_z "-2"
-    viewmodel_presetpos "0"
-    viewmodel_recoil "0"
-    cl_bob_lower_amt "5.000000"
-    cl_bobamt_lat "0.1"
-    cl_bobamt_vert "0.1"
-    cl_bobcycle "0.980000"
-
-// Crosshair
-    cl_crosshair_drawoutline "0"
-    cl_crosshair_dynamic_maxdist_splitratio "0.35"
-    cl_crosshair_dynamic_splitalpha_innermod "1"
-    cl_crosshair_dynamic_splitalpha_outermod "0.5"
-    cl_crosshair_dynamic_splitdist "7"
-    cl_crosshair_friendly_warning "1"
-    cl_crosshair_outlinethickness "1"
-    cl_crosshair_sniper_show_normal_inaccuracy "0"
-    cl_crosshair_sniper_width "1"
-    cl_crosshair_t "0"
-    cl_crosshairalpha "200"
-    cl_crosshaircolor "5"
-    cl_crosshaircolor_b "255"
-    cl_crosshaircolor_g "255"
-    cl_crosshaircolor_r "0"
-    cl_crosshairdot "0"
-    cl_crosshairgap "-5"
-    cl_crosshairgap_useweaponvalue "0"
-    cl_crosshairsize "2.5"
-    cl_crosshairstyle "4"
-    cl_crosshairthickness "1"
-    cl_crosshairusealpha "1"
-    cl_fixedcrosshairgap "3"
 
 //  Basic binds
     bind "ESCAPE" "cancelselect"
@@ -78,41 +38,37 @@ unbindall
     bind "i" "show_loadout_toggle"
     bind "m" "teammenu"
     bind "q" "lastinv"
-    bind "t" "+lookatweapon; r_cleardecals"                                    // inspect weapon
+    bind "t" "+lookatweapon; r_cleardecals"                                    
     bind "r" "+reload; r_cleardecals"
     bind "s" "+mback"
     bind "u" "messagemode2"
-    bind "v" "toggle cl_righthand 1 0; r_cleardecals"                          // hold gun in left or right hand
+    bind "v" "toggle cl_righthand 1 0; r_cleardecals"                          
     bind "w" "+mfwd"
     bind "y" "messagemode"
+    bind "z" "afk"
     bind "CTRL" "+speed"
     bind "SHIFT" "+duck"
     bind "F3" "autobuy"
     bind "F4" "rebuy"
-    bind "F5" "jpeg"                          // screenshot
+    bind "F5" "jpeg"                          
     bind "F6" "save quick"
     bind "F7" "load quick"
     bind "F10" "quit prompt"
     bind "MWHEELDOWN" "+jump"
     bind "MWHEELUP" "+jump"
-    bind "MOUSE1" "+m1"
+    bind "MOUSE1" "+attack"
     bind "MOUSE2" "+attack2"
     bind "MOUSE5" "+voicerecord"
     bind "PAUSE" "pause"
     bind "DEL" "mute"
     bind "ALT" "+cl_show_team_equipment; r_cleardecals"                        // shows teammates guns & equipment above their head
-    bind "-" "toggle voice_enable 1 0"                                         // voice chat toggle 2
+    bind "-" "toggle voice_enable 1 0"                                         // voice chat toggle 
 	
 //  Numpad binds
-    bind "kp_ins" "cl_chatfilters 0"                                      // disable chat (0 on numpad)
-    bind "kp_del" "cl_chatfilters 64"                                     // enable chat (. on numpad)
+    bind "kp_ins" "toggle cl_chatfilters 0 64"                            // disable chat (0 on numpad)
     bind "kp_multiply" "toggle net_graph 1 0"                             // shows fps, ping & tick
     bind "kp_minus" "toggle voice_enable 1 0"                             // voice chat toggle
     bind "kp_enter" "disconnect"     	                                  // rage quit
-	
-//  Crosshair binds                                                       // different crosshair configs 
-    bind "kp_downarrow" "xhair1"     	                                  
-    bind "kp_end" "xhair2"
 	
 //  Viewmodel binds
     bind "uparrow" "fov"                          // fov warp
@@ -128,8 +84,6 @@ unbindall
     cl_interp_ratio                         "1"
     cl_lagcompensation                      "1"
     sv_maxrate                              "786432"
-    alias "128t"                            "cl_updaterate 128; cl_cmdrate 128"
-    alias "64t"                             "cl_updaterate 64; cl_cmdrate 64"
 
 // Mouse
     m_rawinput                              "1"
@@ -163,24 +117,49 @@ unbindall
 
 // HUD
     hud_showtargetid                        "1"
-    cl_hud_background_alpha                 "0.0"
+    cl_hud_background_alpha                 "0"
     cl_hud_bomb_under_radar                 "1"
-    cl_hud_color                            "1"
+    cl_hud_color                            "0"
     cl_hud_healthammo_style                 "1"
     cl_hud_playercount_pos                  "1"
     cl_hud_playercount_showcount            "1"
-    cl_hud_radar_scale                      "0.8"
+    cl_hud_radar_scale                      "1"
     cl_draw_only_deathnotices               "0"
     cl_showloadout                          "1"
-    cl_showpos	                            "1.0"      // shows your position and speed
+    cl_showpos	                            "0"        // shows your position and speed
     cl_showfps                              "1"
     net_graph                               "0"
     net_graphproportionalfont               "0"        // small netgraph font
     
+// Crosshair
+    cl_crosshair_drawoutline "1"
+    cl_crosshair_dynamic_maxdist_splitratio "0.35"
+    cl_crosshair_dynamic_splitalpha_innermod "1"
+    cl_crosshair_dynamic_splitalpha_outermod "0.5"
+    cl_crosshair_dynamic_splitdist "7"
+    cl_crosshair_friendly_warning "1"
+    cl_crosshair_outlinethickness "1.000000"
+    cl_crosshair_sniper_show_normal_inaccuracy "0"
+    cl_crosshair_sniper_width "1"
+    cl_crosshair_t "0"
+    cl_crosshairalpha "200"
+    cl_crosshaircolor "5"
+    cl_crosshaircolor_b "255"
+    cl_crosshaircolor_g "255"
+    cl_crosshaircolor_r "0"
+    cl_crosshairdot "0"
+    cl_crosshairgap "-1.500000"
+    cl_crosshairgap_useweaponvalue "0"
+    cl_crosshairsize "1.500000"
+    cl_crosshairstyle "4"
+    cl_crosshairthickness "1.000000"
+    cl_crosshairusealpha "1"
+    cl_fixedcrosshairgap "3"
+
 // Radar
     cl_radar_always_centered                "1"
     cl_radar_rotate                         "0"
-    cl_radar_scale                          "0.35"
+    cl_radar_scale                          "0.5"
     cl_radar_icon_scale_min                 "1"
     cl_radar_square_with_scoreboard         "0"
 
@@ -223,83 +202,12 @@ unbindall
     alias "afk_on"                          "+forward; +moveleft; +left; alias afk afk_off"
     alias "afk_off"                         "-forward; -moveleft; -left; alias afk afk_on"
 
-// Crosshairs
-    alias "x2"                              "cl_crosshairstyle 2"
-    alias "x3"                              "cl_crosshairstyle 3"
-    alias "x4"                              "cl_crosshairstyle 4"
-    alias "x5"                              "cl_crosshairstyle 5"
-	
-    alias "cBlack"                          "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0"
-    alias "cBlue"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
-    alias "cCyan"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255; cl_crosshaircolor_b 255"
-    alias "cDarkBlue"                       "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 100; cl_crosshaircolor_b 255"
-    alias "cGreen"                          "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255; cl_crosshaircolor_b 0"
-    alias "cGrey"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 128; cl_crosshaircolor_g 128; cl_crosshaircolor_b 128"
-    alias "cLightPink"                      "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 160; cl_crosshaircolor_b 255"
-    alias "cLime"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 178; cl_crosshaircolor_g 255; cl_crosshaircolor_b 0"
-    alias "cMint"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255; cl_crosshaircolor_b 128"
-    alias "cOrange"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 128; cl_crosshaircolor_b 0"
-    alias "cPink"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
-    alias "cPurple"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 128; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
-    alias "cRed"                            "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0"
-    alias "cSkyblue"                        "cl_crosshaircolor 5; cl_crosshaircolor_r 60; cl_crosshaircolor_g 158; cl_crosshaircolor_b 255"
-    alias "cWhite"                          "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255; cl_crosshaircolor_b 255"
-    alias "cYellow"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255; cl_crosshaircolor_b 0"
-	
-    alias "+m1"                             "+attack; cRed"   // color when mouse1 pressed
-    alias "-m1"                             "-attack; cCyan"  // color when not pressed
-	
-    alias "xhair1"                          "cl_crosshair_drawoutline 1; cl_crosshairgap -1.5; cl_crosshairsize 2; x5; cl_crosshairthickness 1; cl_crosshairdot 0"
-    alias "xhair2"                          "cl_crosshair_drawoutline 0; cl_crosshairgap -5; cl_crosshairsize 2.5; x4; cl_crosshairthickness 1; cl_crosshairdot 0"
-
 // Viewmodels
-    alias "fov"                             "viewmodel_fov "68"; viewmodel_offset_x "1.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
+    alias "fov"                             "viewmodel_fov "68"; viewmodel_offset_x "2.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
     alias "quake"                           "viewmodel_fov "54"; viewmodel_offset_x "-2"; viewmodel_offset_y "2.5"; viewmodel_offset_z "-2"
     alias "corner"                          "viewmodel_fov "68"; viewmodel_offset_x "2.5"; viewmodel_offset_y "2.5"; viewmodel_offset_z "-2"
     alias "vis"                             "viewmodel_fov "54"; viewmodel_offset_x "2.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
-
-// Output Current Commands
-    alias "damage"                          "con_filter_text Damage; con_filter_text_out Player:; con_filter_enable 2; developer 1"
-    alias "$alienware"                      "con_filter_text $alienware; con_filter_enable 2; developer 1; echo $alienware"
-
-// Null-cancelling movement script (prevents you from pressing two opposing directions, which causes you to stop moving)
-    bind "w"                                "+mfwd"
-    bind "s"                                "+mback"
-    bind "a"                                "+mleft"
-    bind "d"                                "+mright"
-
-    alias "+mfwd"                           "-back;+forward;alias checkfwd +forward"
-    alias "+mback"                          "-forward;+back;alias checkback +back"
-    alias "+mleft"                          "-moveright;+moveleft;alias checkleft +moveleft"
-    alias "+mright"                         "-moveleft;+moveright;alias checkright +moveright"
-    alias "-mfwd"                           "-forward;checkback;alias checkfwd none"
-    alias "-mback"                          "-back;checkfwd;alias checkback none"
-    alias "-mleft"                          "-moveleft;checkright;alias checkleft none"
-    alias "cMint"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255; cl_crosshaircolor_b 128"
-    alias "cOrange"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 128; cl_crosshaircolor_b 0"
-    alias "cPink"                           "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
-    alias "cPurple"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 128; cl_crosshaircolor_g 0; cl_crosshaircolor_b 255"
-    alias "cRed"                            "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0"
-    alias "cSkyblue"                        "cl_crosshaircolor 5; cl_crosshaircolor_r 60; cl_crosshaircolor_g 158; cl_crosshaircolor_b 255"
-    alias "cWhite"                          "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255; cl_crosshaircolor_b 255"
-    alias "cYellow"                         "cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255; cl_crosshaircolor_b 0"
-	
-    alias "+m1"                             "+attack; cRed"   // color when mouse1 pressed
-    alias "-m1"                             "-attack; cCyan"  // color when not pressed
-	
-    alias "xhair1"                          "cl_crosshair_drawoutline 1; cl_crosshairgap -1.5; cl_crosshairsize 2; cl_crosshairstyle 5; cl_crosshairthickness 1"
-    alias "xhair2"                          "cl_crosshair_drawoutline 0; cl_crosshairgap -5; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairthickness 1"
-
-// Viewmodels
-    alias "fov"                             "viewmodel_fov "68"; viewmodel_offset_x "1.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
-    alias "quake"                           "viewmodel_fov "54"; viewmodel_offset_x "-2"; viewmodel_offset_y "2.5"; viewmodel_offset_z "-2"
-    alias "corner"                          "viewmodel_fov "68"; viewmodel_offset_x "2.5"; viewmodel_offset_y "2.5"; viewmodel_offset_z "-2"
-    alias "vis"                             "viewmodel_fov "54"; viewmodel_offset_x "2.5"; viewmodel_offset_y "-2"; viewmodel_offset_z "-2"
-
-// Output Current Commands
-    alias "damage"                          "con_filter_text Damage; con_filter_text_out Player:; con_filter_enable 2; developer 1"
-    alias "$alienware"                      "con_filter_text $alienware; con_filter_enable 2; developer 1; echo $alienware"
-
+    
 // Null-cancelling movement script (prevents you from pressing two opposing directions, which causes you to stop moving)
     bind "w"                                "+mfwd"
     bind "s"                                "+mback"
@@ -319,4 +227,3 @@ unbindall
     alias "checkright"                      "none"
     alias "none"                            ""
 
-    
